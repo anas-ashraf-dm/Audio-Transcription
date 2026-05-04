@@ -14,6 +14,7 @@ dependencies = [
     "lightning-fabric==2.1.4",
     "faster-whisper==1.0.3",
     "ctranslate2>=4.0.0",
+    "numpy>=1.24.0,<2.0.0",
 ]
 
 [tool.uv.sources]
