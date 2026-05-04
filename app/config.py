@@ -1,0 +1,6 @@
+HF_TOKEN = "your_huggingface_token_here"
+DEVICE = "cuda"
+COMPUTE_TYPE = "float16"
+MODEL_SIZE = "large-v3"
+UPLOAD_DIR = "uploads"
+TRANSCRIPT_DIR = "transcripts"
