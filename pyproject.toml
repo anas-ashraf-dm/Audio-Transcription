@@ -7,8 +7,8 @@ dependencies = [
     "uvicorn[standard]",
     "python-multipart",
     "setuptools",
-    "torch==2.3.1+cu121",
-    "torchaudio==2.3.1+cu121",
+    "torch==2.3.1+cu122",
+    "torchaudio==2.3.1+cu122",
     "pyannote.audio==3.1.1",
     "pytorch-lightning==2.1.4",
     "lightning-fabric==2.1.4",
@@ -21,15 +21,15 @@ dependencies = [
     "torchmetrics==0.11.4"
 ]
 
-[tool.uv.sources]
-torch = [{ index = "pytorch-cu121" }]
-torchaudio = [{ index = "pytorch-cu121" }]
-
 [[tool.uv.index]]
-name = "pytorch-cu121"
-url = "https://download.pytorch.org/whl/cu121"
+name = "pytorch-cu122"
+url = "https://download.pytorch.org/whl/cu122"
 explicit = true
 priority = "explicit"
+
+[tool.uv.sources]
+torch = [{ index = "pytorch-cu122" }]
+torchaudio = [{ index = "pytorch-cu122" }]
 
 [[tool.uv.index]]
 name = "pypi"
