@@ -10,6 +10,7 @@ dependencies = [
     "python-multipart",
     "torch==2.3.1+cu121",
     "torchaudio==2.3.1+cu121",
+    "setuptools"
 ]
 
 [tool.uv.sources]
