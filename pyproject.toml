@@ -23,3 +23,9 @@ torchaudio = [{ index = "pytorch-cu121" }]
 name = "pytorch-cu121"
 url = "https://download.pytorch.org/whl/cu121"
 explicit = true
+priority = "explicit"
+
+[[tool.uv.index]]
+name = "pypi"
+url = "https://pypi.org/simple"
+priority = "supplemental"
