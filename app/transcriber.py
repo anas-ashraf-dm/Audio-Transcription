@@ -7,7 +7,7 @@ from app.config import COMPUTE_TYPE, DEVICE, HF_TOKEN, MODEL_SIZE, TRANSCRIPT_DI
 model = whisperx.load_model(MODEL_SIZE, DEVICE, compute_type=COMPUTE_TYPE)
 diarize_model = Pipeline.from_pretrained(
     "pyannote/speaker-diarization-3.1",
-    use_auth_token=HF_TOKEN,
+    token=HF_TOKEN,
 ).to(DEVICE)
 
 
